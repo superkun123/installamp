@@ -1,0 +1,3078 @@
+h1,h2,h3
+    font-family: 'Gilroy Regular'
+    font-weight: 400
+
+p, a
+    font-family: 'Gilroy Regular'
+    margin-bottom: 0
+    margin-top: 0
+
+a:hover
+    text-decoration: none
+    color: inherit
+
+ul
+    padding: 0
+    margin: 0
+    list-style: none
+
+li 
+    font-family: 'Gilroy Regular' 
+
+
+div 
+   font-family: 'Gilroy Regular' 
+
+
+
+.main-header
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05)
+    margin-bottom: 30px
+    &__top-menu
+        padding-top: 15px
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 20px
+    &__logo-n-phone
+        display: flex
+        align-items: center
+    &__logo
+        margin-right: 40px
+    &__phone svg
+        margin-right: 10px
+    &__phone .link-with-border
+        display: inline
+        font-size: 16px
+        color: #0C9CB8
+        padding-bottom: 1px
+        border-bottom: 1px solid #0C9CB8
+    &__user-links
+        display: flex
+        justify-content: flex-end
+    &__compare, &__favorite, &__cabinet
+        display: flex
+        margin-right: 30px
+        align-items: center
+        & svg
+            margin-right: 10px
+        & .link
+            color: #1B1B1B
+            font-size: 14px
+            font-family: 'Gilroy'
+            font-weight: 500
+
+.main-btn
+    border-radius: 100px
+    font-size: 14px
+    padding-right: 20px
+    padding-left: 20px
+    padding-top: 15px
+    padding-bottom: 15px
+    display: flex
+    align-items: center
+    transition: 0.2s
+    &:hover
+        color: #fff
+        background: #0eb0d0
+        transition: 0.2s
+    & svg
+        margin-right: 10px
+    &:focus
+        outline: none
+
+
+
+
+.blue
+    background: #0C9CB8
+    color: #fff
+
+
+.main-header__bottom-menu
+    align-items: center
+    padding-bottom: 20px
+
+
+.dropdown-menu__list
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    & .dropdown-menu__li 
+      color: #1b1b1b
+      font-size: 16px
+      margin-right: 10px
+      margin-bottom: 10px
+    & svg
+        margin-left: 12px
+    & .dropdown-menu__link
+        color: #1b1b1b
+        font-size: 16px
+        &:hover
+            text-decoration: underline
+            text-underline-position: under
+
+
+.dropdown-content-list li a:hover
+    text-decoration: underline
+    text-underline-position: under
+
+.coupon-submit:hover
+    background-color: #0eb0d0
+    transition: 0.2s
+
+
+
+.search
+    display: flex
+    justify-content: flex-end
+    max-width: 300px
+
+.main-header__dropdown-menu
+    margin-right: 40px
+    position: static
+
+.search__input
+    background-color: rgba(12 156 184 / 2%)
+    max-width: 280px
+    border-radius: 31px
+    border: none
+    font-size: 14px
+    background-image: url(../assets/img/search.svg)
+    background-repeat: no-repeat
+    padding-top: 10px
+    padding-bottom: 10px
+    padding-left: 19px
+    background-position-y: center
+    background-position-x: 90%
+    width: 100%
+    font-family: 'Gilroy Regular'
+
+.main-slider
+    &__slide
+        position: relative
+        & .slide__mask
+            position: absolute
+            width: 100%
+            height: 100%
+            background: #000000
+            opacity: 0.3
+            top: 0
+            border-radius: 4px
+        & .slide__content
+            top: 30%
+            position: absolute
+            margin-left: auto
+            margin-right: auto
+            left: 0
+            right: 0
+            text-align: center
+            & .main-btn
+                display: inline-block
+                font-size: 18px
+                padding-left: 60px
+                padding-right: 60px
+                font-family: 'Gilroy Medium'
+
+        & .slide__title
+            font-size: 36px
+            color: #ffffff
+            margin-bottom: 50px
+        
+        & .slide-img
+            max-width: 100%
+            border-radius: 4px
+
+
+.main-slider .slick-prev
+    left: 50px
+
+.main-slider .slick-next
+    right: 50px
+
+.white
+    background: #ffffff
+    color: #1b1b1b
+    &:hover
+        color: #fff
+        background: #0eb0d0
+        transition: 0.2s
+
+
+.slick-prev, .slick-next
+    z-index: 10
+
+.slick-prev:before, .slick-next:before
+    content: ' '
+
+
+.category-row
+    margin-top: 24px
+    margin-bottom: 30px
+
+
+.features
+    &__item
+      display: flex
+      align-items: center
+      max-width: fit-content
+    &__icon
+      background-color: rgba(12 156 184 / 6%)
+      border-radius: 100%
+      height: 40px
+      width: 40px
+      margin-right: 10px
+      display: flex
+      justify-content: center
+      align-items: center
+
+
+
+.category-card
+    border-radius: 6px
+    &__link
+        position: relative
+        width: 100%
+        height: 100%
+        display: block
+    &__img
+        max-width: 100%
+        border-radius: 4px
+    &__mask
+        position: absolute
+        width: 100%
+        height: 100%
+        background: #000000
+        opacity: 0.3
+        top: 0
+        border-radius: 4px
+    &__title
+        position: absolute
+        margin-left: auto
+        margin-right: auto
+        left: 0
+        right: 0
+        text-align: center
+        color: #fff
+        font-size: 20px
+        top: 40%
+        padding-left: 40px
+        padding-right: 40px
+
+
+.features
+    justify-content: space-between
+
+
+.recomendet
+    margin-top: 160px
+
+.recomendet__title
+    text-align: center
+    margin-bottom: 55px
+    font-size: 32px
+
+.recomendet__product
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06)
+    border-radius: 4px
+    display: block
+    background: #fff
+    padding-bottom: 20px
+    // padding: 0
+    // margin-right: 15px
+    // margin-left: 15px
+    // max-width: 23%
+
+
+.product__img
+    max-width: 100%
+    padding-left: 30px
+    padding-right: 30px
+
+
+.product__title-n-price
+    margin-left: 35px
+
+
+.product__title
+    color: #242424
+    font-size: 16px
+    margin-bottom: 2px
+
+.product__price
+    color: #1B1B1B
+    font-weight: 600
+    font-size: 16px
+
+.product__basket
+    background: #1FA0C4
+    border-radius: 100%
+    height: 45px
+    width: 45px
+    margin-right: 35px
+    display: flex
+    justify-content: center
+    align-items: center
+
+.product__desc-row
+    justify-content: space-between
+    margin-bottom: 16px
+    
+.product-container
+    margin-bottom: 28px
+
+.product-img__container
+    height: 450px
+    text-align: center
+    display: flex
+    flex-direction: column
+    justify-content: center
+    & img
+        object-fit: contain
+        max-height: 100%
+
+.new-price
+    font-size: 16px
+    color: #FF2424
+    margin-right: 8px
+
+.old-price
+    font-size: 13px
+    color: #242424
+    opacity: 0.5
+    text-decoration: line-through
+
+
+.recomendet
+    margin-bottom: 150px
+
+.slider-logo__title
+    text-align: center
+    margin-bottom: 60px
+
+
+.logo-slider .slick-prev svg path
+    fill: #0C9CB8
+    
+
+.logo-slider .slick-prev svg rect
+    fill: #0C9CB8
+
+
+.logo-slider .slick-next svg path
+    fill: #0C9CB8
+    
+
+.logo-slider .slick-next svg rect
+    fill: #0C9CB8
+    
+
+.slider-logo
+    margin-bottom: 150px
+
+.logo-slider .slick-slide
+    display: flex
+    justify-content: center
+    text-align: center
+
+
+.logo-slider__link
+    filter: opacity(0.5)
+    transition: 0.5s
+    &:hover
+        filter: opacity(1)
+        transition: 0.5s
+
+.logo-slider__link:focus
+    outline: none
+
+
+.about-shop
+    margin-bottom: 120px
+
+.about-shop__img img
+    max-width: 100%
+
+
+
+.about-shop__title
+    font-size: 32px
+    margin-bottom: 50px
+
+.about-shop__content
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.about-shop__text
+    font-size: 18px
+    margin-bottom: 30px
+
+.about-shop__text:last-child
+    margin-bottom: 0px
+
+
+.favorite
+    background-color: rgba(12 156 184 / 2%)
+    padding-top: 100px
+    &__title
+        font-size: 32px
+        margin-bottom: 50px
+        text-align: center
+
+
+.form-subscribe
+    background: #0EA4C1
+    border-radius: 4px 0px 0px 0px
+    margin-bottom: 100px
+    display: flex
+    justify-content: center
+    align-items: center
+
+.form-subscribe__text
+    text-align: center
+    color: #fff
+    padding-top: 30px
+    padding-bottom: 30px
+    font-family: 'Gilroy Regular'
+    margin-right: 50px
+    
+.form-subscribe__title
+    font-size: 24px
+    margin-bottom: 5px
+    font-family: 'Gilroy Regular'
+
+.form-subscribe__subtitle
+    font-size: 16px
+    text-align: center
+    font-family: 'Gilroy Regular'
+
+
+.form-subscribe__mail
+    padding: 13px
+    padding-left: 20px
+    color: #fff
+    font-size: 16px
+    border: 1px solid #fff
+    border-radius: 77px
+    background: none
+    width: 500px
+    &:active
+        outline: none
+    &:focus
+        outline: none
+    &:hover
+        outline: none
+    &::placeholder
+        color: rgba(255, 255, 255, 0.5)
+
+.form-subscribe__submit
+    outline: none
+    border: none
+    margin-left: -121px
+
+    transform: translate(-26px, -1px)
+    display: inline
+    padding-left: 30px
+    padding-right: 30px
+    font-family: 'Gilroy Regular'
+
+
+input
+    &:focus
+        outline: none
+
+
+.footer
+    padding-top: 70px
+    background: #0C9CB8
+    padding-bottom: 70px
+    &__logo
+        margin-bottom: 34px
+    &__copyright
+        color: #ffffff
+        opacity: 0.5
+        font-size: 12px
+        & .author
+            margin-top: 20px
+            margin-bottom: 40px
+            & a
+                border-bottom: 1px solid #fff
+                color: #fff
+    &__social-medias
+        display: flex
+
+
+
+
+
+.footer-icon
+    background-color: #0EA4C1
+    border-radius: 100%
+    height: 46px
+    width: 46px
+    margin-right: 23px
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+.footer-list__title
+    color: #ffffff
+    font-size: 18px
+    margin-bottom: 30px
+    display: block
+    &:hover
+        text-decoration: none
+        color: #ffffff
+
+.footer-list li
+    margin-bottom: 15px
+
+.footer-list li a 
+    color: #ffffff
+    font-size: 16px
+    margin-bottom: 15px
+    display: inline
+    &:hover
+        text-decoration: none
+        color: #fff
+
+.worktime
+    color: #ffffff
+    font-size: 16px
+    display: block
+    margin-top: 45px    
+    font-family: 'Gilroy Regular'
+
+.up
+    color: #ffffff
+    font-size: 18px
+    &:hover
+        color: #fff
+    & svg
+        margin-right: 12px
+
+
+.main-footer-row
+    justify-content: space-between
+
+
+
+.border-bottom
+    border-bottom: 1px solid #fff
+
+.up-container
+    padding-right: 15px
+
+.b-bottom
+    border-bottom: 1px solid #fff
+
+.breadcrumbs 
+    margin-bottom: 100px
+
+.breadcrumbs-ul 
+    display: flex
+    list-style: none
+    align-items: center
+    & .breadcrumbCustom
+        color: #000000
+        font-size: 14px
+        & a 
+          color: #B8B6BF
+
+    & .breadcrumbCustom::after
+        content: ''
+        width: 12px
+        height: 12px
+        background: #000
+        display: inline-block
+        background: url(../assets/img/chevron-right.svg)
+        margin-left: 10px
+        margin-right: 10px
+    & .breadcrumbCustom-active::after 
+        display: none
+
+
+.breadcrumbs-ul li:first-child a 
+    color: #000
+
+
+.products-inner__main-title 
+    text-align: center
+    font-size: 36px
+    margin-bottom: 150px
+
+
+
+.main 
+    min-height: 60vh
+
+
+.col-aside 
+    flex:0 0 22%
+    max-width: 367px
+
+.aside-bars 
+    margin-bottom: 30px
+
+.aside-menu-card 
+    background: #FFFFFF
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06)
+    border-radius: 4px
+    padding-bottom: 30px
+    z-index: 10
+
+
+.aside-menu__li 
+    & a 
+        color: #000
+        padding: 20px 30px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    
+
+
+.aside-menu__ul
+    & .active
+        background: #0C9CB8
+        border-radius: 4px
+        & a
+          color: #fff
+        & svg g
+            opacity: 1
+        & svg rect
+            fill: #fff
+
+
+.grey 
+    color: #77767E
+
+.dropbtn 
+    font-family: 'Gilroy Regular'
+    &:hover
+        cursor: pointer
+    & svg
+        margin-left: 12px
+         
+
+.content-sort__totalProducts
+    font-family: 'Gilroy Regular'
+
+.product-content__sort 
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 27px
+
+.product-col
+    margin-left: 15px
+    margin-right: 15px
+
+
+.product-content__goods
+    display: flex
+
+
+.showmore-n-pagination-row
+    width: 100%
+    margin-left: 0px
+    margin-right: 0px
+
+
+.showmore-btn 
+    display: block
+    color: #ffffff
+    background: #0C9CB8
+    border-radius: 42px
+    width: 66%
+    padding: 20px
+    text-align: center
+    font-family: 'Gilroy Regular'
+    margin-bottom: 30px
+    transition: 0.2s
+    &:hover
+      color: #fff
+      background: #0eb0d0
+      transition: 0.2s
+
+
+.showmore-n-pagination 
+    display: flex
+
+
+.pagination 
+    margin-left: 28px
+    flex: 1
+    &-list
+        display: flex
+        justify-content: space-between
+        width: 100%
+       
+
+.pagination-list__li
+    display: flex
+    background: #F5F5F5
+    color:  #000
+    width: 60px
+    height: 60px
+    align-items: center
+    justify-content: center
+    border-radius: 60px
+    margin-right: 25px
+
+.pagination-next
+    margin-right: 0px
+            
+.pagination-list__li--active 
+    background: #0C9CB8
+    color: #fff
+
+
+.recommends-section
+    margin-bottom: 150px
+    margin-top: 150px
+
+
+.recommends-row
+    margin-right: 0px
+    margin-left: 0px 
+
+.recommend-card
+    display: block
+    position: relative
+    background: #FFFFFF
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06)
+    border-radius: 4px
+    height: 320px
+    &__title
+        font-size: 24px
+        position: absolute
+        bottom: 40px
+        left: 40px
+        color: #000
+    &__img
+        object-fit: contain
+        max-width: 100%
+
+
+.product-hidden 
+    height: 100%
+    width: 100%
+    display: none
+    margin-left: 0
+    margin-right: 0
+    transition: 1s
+    overflow: hidden
+    transform: translateY(-1000px)
+
+.show-hidden-product 
+    display: flex
+    transition: 1s
+    height: 100%
+    overflow: hidden
+    transform: translateY(0px)
+
+
+.card
+    border: none
+
+.card .btn-link
+    color: #000000
+    text-decoration: none
+    font-family: 'Gilroy Regular'
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    padding: 20px 30px
+    color: #fff
+    background: #0C9CB8
+
+.card-header 
+    background: #FBFBFB
+    border: none
+    outline: none
+    border-radius: 4px
+    margin-bottom: 3px
+    padding: 0
+
+
+.card-header-active 
+    color: #ffffff
+    background: #0C9CB8
+    border-radius: 4px
+    & .btn-link
+        color: #fff
+        & svg g
+            opacity: 1
+        & svg rect
+            fill: #fff
+
+.btn.focus, .btn:focus
+    box-shadow: none
+
+
+.standart-input 
+    background-color: rgba(27,27,27,0.03)
+    border: none
+    outline: none
+    border-radius: 4px
+    padding: 10px 20px
+    olor:  rgba(27,27,27,0.5)
+    font-family: 'Gilroy Regular'
+    &::placeholder
+        color:  rgba(27,27,27,0.5)
+        font-family: 'Gilroy Regular'
+
+
+.price-inputs 
+    display: flex
+    max-width: 100%
+
+.card-body
+    padding: 30px
+
+.number-input 
+    width: 50%
+
+.number-input:first-child
+    margin-right: 14px
+
+
+
+
+
+    /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+  -webkit-appearance: none
+  margin: 0
+
+
+/* Firefox */
+input[type=number] 
+  -moz-appearance: textfield
+
+
+
+
+.container-for-filter
+  display: block
+  position: relative
+  padding-left: 30px
+  margin-bottom: 25px
+  cursor: pointer
+  font-size: 16px
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  font-family: 'Gilroy Regular'
+
+  input
+    position: absolute
+    opacity: 0
+    cursor: pointer
+    height: 0
+    width: 0
+
+
+
+.checkmark
+  position: absolute
+  top: 0
+  left: 0
+  height: 17px
+  width: 17px
+  background-color: rgba(27,27,27,0.03)
+  border-radius: 25px
+  margin-top: 2px
+
+.main-header
+    position: relative
+
+.show-filter-btn
+    background:  #0C9CB8
+    padding: 20px 40px
+    border-radius: 4px
+    color: #ffffff
+    position: absolute
+    // right: -120px
+    left: 20%
+    top: 0
+    z-index: 99
+    display: none
+    background: url(../assets/img/btn-bg.svg)
+    background-repeat: no-repeat
+    background-size: cover
+    padding-left: 50px
+
+
+.card-header .collapsed 
+    background: #FBFBFB
+    color: #1B1B1B
+    & svg
+        transform: rotate(180deg)
+    & svg g
+        opacity: 1
+    & svg rect
+        fill: #A9A9A9
+
+
+
+.footer .card-header .collapsed 
+    & svg
+        transform: rotate(180deg)
+    & svg g
+        opacity: 1
+    & svg rect
+        fill: #fff
+
+
+.footer .btn-link 
+    border-top: 1px solid #0f8fa9
+    border-radius: 0
+
+
+.filter-menu-card 
+    padding-bottom: 0px
+
+
+#accordion .card:hover
+    box-shadow: none
+
+.product-tabs__btns:hover
+    cursor: pointer
+
+.product-tabs .tab-content
+    padding-top: 0
+
+.container
+  &:hover input ~ .checkmark
+    background-color: rgba(27,27,27,0.03)
+
+  input:checked ~ .checkmark
+    background-color: #0C9CB8
+
+
+
+.checkmark:after
+  content: ""
+  position: absolute
+  display: none
+
+
+
+.checkmark-fill
+    background-color: #0C9CB8
+    background-image: url(../assets/img/checkbox.svg)
+    background-repeat: no-repeat
+    background-size: 10px 10px
+    background-position: center
+
+
+.inner-content__nav .apply-filter
+    color: #fff
+
+.inner-content__nav .remove-filter
+    color: #0C9CB8
+
+
+
+
+.container
+  input:checked ~ .checkmark:after
+    display: block
+
+
+  .checkmark:after
+    left: 4.5px
+    top: 5px
+    width: 9px
+    height: 9px
+    background: url(../assets/img/checkbox.svg)
+    background-repeat: no-repeat
+    background-size: contain
+
+
+.apply-filter 
+    @extend  .showmore-btn
+    display: block
+    margin: 0 auto
+    width: 100%
+    padding-top: 20px
+    padding-bottom: 20px
+    
+
+.remove-filter
+    @extend .apply-filter
+    margin-top: 20px
+    background: #fff
+    border: 1px solid #0C9CB8
+    border-radius: 42px
+    color: #0C9CB8
+    &:hover
+        color: #fff
+
+
+.filter-btn
+    margin-top: 30px
+
+
+// .sliders-sync 
+//     display: flex
+
+// .slider-nav
+//     display: block
+
+
+// slider-with-preview
+
+
+/*USE CSS for Slider
+
+
+
+.vehicle-detail-banner .car-slider-desc
+  max-width: 180px
+  margin: 0 auto
+
+.banner-slider .slider
+  &.slider-for
+    max-width: 90%
+    margin-left: 20px
+
+
+
+
+  &.slider-nav
+    max-width: 74px
+
+  &.slider-for
+    width: 100%
+    float: left
+
+  &.slider-nav
+    width: 100%
+    float: left
+    height: 610px
+    overflow: hidden
+
+.slider-banner-image
+  height: 610px
+
+.banner-slider .slider.slider-nav
+  padding: 20px 0 0
+  padding-top: 0px
+
+.slider-nav .slick-slide.thumbnail-image .thumbImg
+  max-width: 74px
+  height: 74px
+  margin-bottom: 10px
+  &:hover
+      cursor: pointer
+
+.slider-banner-image img, .slider-nav .slick-slide.thumbnail-image .thumbImg img
+  height: 100%
+  width: 100%
+  object-fit: cover
+
+.slick-vertical .slick-slide
+  &:active, &:focus
+    border: 0
+    outline: 0
+
+.slick-arrow
+  &:hover, &:focus
+    border: 0
+    outline: 0
+
+.slider-nav .slick-slide
+  &.slick-current
+    &.thumbnail-image .thumbImg
+        // background: url(../assets/img/border-active-slide.svg)
+        border: 2px solid #0C9CB8
+
+    span
+      color: #196DB6
+
+  text-align: center
+
+  span
+    font-size: 14px
+    display: block
+    padding: 5px 0 15px
+
+.slider-nav .slick-arrow
+  width: 100%
+  background-color: transparent
+  border: 0
+  background-position: center
+  background-repeat: no-repeat
+  font-size: 0
+  height: 18px
+  position: absolute
+  left: 0
+  right: 0
+  z-index: 99
+
+.blue-text 
+    color:#0C9CB8
+
+
+.slider-for .slick-next 
+    right: 30px
+    background: #0C9CB8
+    border-radius: 100px
+    width: 50px
+    height: 50px
+
+.slider-for .slick-prev:before, .slider-for .slick-next:before 
+    display: none
+
+.slider-nav .slick-prev
+  top: 0
+
+.slider-nav .slick-next
+  bottom: 0
+  background-color: #fff
+
+.slider-nav .slick-prev.slick-arrow
+  display: none !important
+  background-image: url(../images/black-up-arrow.png)
+
+.slider-nav .slick-next.slick-arrow
+  display: none !important
+  background-image: url(../images/black-down-arrow.png)
+
+
+
+
+
+
+.slider-for .slick-list
+  border: 1px solid #F0F0F0
+
+
+.product-card-item
+    margin-bottom: 20px
+    padding: 140px 100px
+    height: 97.5%
+
+
+.product-card-item
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06)
+
+
+.product-card__title
+    font-size: 36px
+    margin-bottom: 10px
+
+.product-card__subtitle
+    color: #8C8E8E
+    font-size: 14px
+    margin-bottom: 88px
+
+
+.product-card-item__price
+    font-size: 32px
+    color: #000
+    margin-bottom: 20px
+
+.cart-n-counter
+    display: flex
+    align-items: center
+    margin-bottom: 10px
+
+.cart-btn
+    @extend .apply-filter
+    max-width: 50%
+    margin: 0
+    margin-right: 15px
+    min-width: fit-content
+
+.counter
+    display: flex
+    border-radius: 77px
+    padding-top: 15px
+    padding-bottom: 15px
+    justify-content: space-between
+    align-items: center
+    min-width: 128px
+    background: rgba(12, 156, 184, 0.04)
+
+.minus, .plus
+    height: 30px
+    display: flex
+    align-items: center
+    width: 40px
+    justify-content: center
+    &:hover
+        cursor: pointer
+
+.minus 
+    padding-left: 10px
+    padding-right: 5px
+
+.plus 
+    padding-right: 10px
+    padding-left: 5px
+
+
+.buy-click
+    text-align: center
+    font-size: 14px
+    color: #8C8E8E
+    text-decoration: underline
+    padding-left: 60px
+    text-underline-position: under
+
+.counter-value
+    background: none
+    border: none
+    width: 30px
+    text-align: center
+    font-family: 'Gilroy Medium'
+    
+
+.noselect
+  -webkit-touch-callout: none
+
+  /* iOS Safari
+  -webkit-user-select: none
+
+  /* Safari
+  -khtml-user-select: none
+
+  /* Konqueror HTML
+  -moz-user-select: none
+
+  /* Old versions of Firefox
+  -ms-user-select: none
+
+  /* Internet Explorer/Edge
+  user-select: none
+
+  /* Non-prefixed version, currently
+   * supported by Chrome, Edge, Opera and Firefox
+
+
+.tab-content__item 
+   display: none
+  
+
+.tab-content__item.active 
+   display: block
+
+
+.product-tabs__btns
+    margin-top: 60px
+    margin-bottom: 40px
+
+
+.product-tabs__btns .tab-header
+    display: flex
+
+.product-tabs__btns .tab-header__item
+    color: #242424
+    background: #F4F8F8
+    border-radius: 140px
+    min-width: fit-content
+    max-width: fit-content
+    padding:15px 25px
+    margin-right: 10px
+
+
+.product-tabs__btns .active
+    background: #0C9CB8
+    color: #fff
+
+
+.tab-content__text p
+    margin-bottom: 30px
+
+.product-tabs
+    margin-bottom: 150px
+
+.similar-products__title 
+    margin-bottom: 55px
+    font-size: 32px
+    color: #1B1B1B
+    text-align: center
+
+.similar-products
+    margin-bottom: 130px
+
+
+.basket-count-p
+    margin-right: 50px
+
+
+.basket__clear
+    color: #1B1B1B
+    opacity: 0.4
+
+
+
+
+.bakset-count-value
+    color: #0C9CB8
+    margin-left: 7px
+
+
+.basket-title-row
+    margin-bottom: 70px
+
+
+.busket__item
+    display: flex
+    justify-content: space-between
+    padding-bottom: 20px
+    border-bottom: 1px solid rgba(27,27,27,0.1)
+    margin-bottom: 30px
+
+
+.busket-item__img-n-text
+    display: flex
+    align-items: center
+
+
+.busket-item__img
+    max-width: 100px
+    margin-right: 15px
+    & img
+        max-width: 100%
+
+
+
+.total-price-col
+    display: flex
+    justify-content: flex-end
+    align-items: flex-end
+    flex-direction: column
+
+
+.total-price p 
+    font-size: 24px
+    margin-right: 40px
+    margin-bottom: 36px
+    // text-align: right
+    & .total-price-value
+        font-weight: 600
+
+
+.dropbtn:hover .dropdown-content
+    display: block
+
+
+
+.also-buy__title
+    @extend .similar-products__title
+
+.also-buy
+    margin-bottom: 130px
+
+.basket-count
+    display: flex
+    justify-content: flex-end
+    align-items: center
+
+
+.busket-item__title
+    font-size: 18px
+    color: #1B1B1B
+    font-family: 'Gilroy Medium'
+    font-weight: 600
+    margin-bottom: 5px
+
+
+.busket-item__subtitle
+    font-size: 14px
+    opacity: 0.5
+
+
+.busket-item__counter-n-price
+    display: flex
+    align-items: center
+
+
+.busket-item__counter-n-price
+    & .counter
+        max-height: 45px
+        margin-right: 30px
+    & .price
+        font-weight: 600
+        font-size: 18px
+        margin-right: 100px
+        min-width: 80px
+
+
+.buy-btn
+    max-width: fit-content
+    padding-left: 95px
+    padding-right: 95px
+
+
+.basket-total-row
+    margin-bottom: 150px
+
+
+.basket-tabs__header
+    display: flex
+    justify-content: space-between
+    max-width: 530px
+    border-bottom: 1px solid rgba(27,27,27,0.1)
+    & li
+        font-size: 18px
+        color:  #1B1B1B
+        opacity: 0.3
+        padding-left: 30px
+        padding-right: 30px
+        padding-bottom: 14px
+        &:hover
+            cursor: pointer
+
+    & .active
+        opacity: 1
+        color: #0C9CB8
+        border-bottom: 1px solid #0C9CB8
+
+
+
+.tab-content
+    max-width: 530px
+    padding-top: 30px
+
+
+.main-input
+    padding: 18px  30px
+    background: rgba(27,27,27, 0.03)
+    font-family: 'Gilroy Medium'
+    outline: none
+    border: none
+    border-radius: 6px
+    width: 100%
+
+
+
+.coupon-form
+    max-width: 530px
+    position: relative
+
+.hamburger-menu 
+    display: none
+
+.coupon-submit
+    background: #0C9CB8
+    width: 60px
+    height: 60px
+    border-radius: 6px
+    outline: none
+    border: none
+    position: absolute
+    right: 0px
+    background-image: url(../assets/img/arrow-right.svg)
+    background-repeat: no-repeat
+    background-position: center
+
+
+.basket-tabs__lines
+    position: relative
+    margin-top: 14px
+    margin-bottom: 30px
+    & .underline
+        position: absolute
+        left: 0px
+        top:0px
+        max-width: 531px
+    & .active-line
+        position: absolute
+        top: 0px
+        left: 0
+        max-width: 531px
+        max-width: 112px
+        transition: 0.5s
+        transform: translateX(0)
+
+
+.ordering
+    margin-bottom: 150px
+
+.ordering-title
+    margin-bottom: 70px
+    font-size: 36px
+
+
+.form-card
+    background: #FFFFFF
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06)
+    border-radius: 4px
+    padding: 30px
+    margin-bottom: 30px
+    &__header
+      display: flex
+      justify-content: space-between
+      align-items: center
+      padding-bottom: 26px
+      border-bottom: 1px solid rgba(223, 223, 223, 0.5)
+      margin-bottom: 30px
+    &__title
+        font-size: 20px
+        font-weight: 500
+    &__enter-link
+        color:  #0C9CB8
+        text-decoration: underline
+        text-underline-position: under
+        &:hover
+            color: #0eb0d0
+            transition: 0.2s
+            text-decoration: underline
+            text-underline-position: under
+    &__input-container
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 20px
+    &__input
+        max-width: 76%
+    &__label 
+        font-size: 16px
+    & .star
+        color: #0c9cb8
+
+
+.drop-menu-col li:hover a
+    transition: 0.2s
+    text-decoration: underline
+    text-underline-position: under
+
+
+.form-card__input-container:last-child
+    margin-bottom: 0
+
+
+.adress-container
+    display: flex
+    max-width:76%
+    justify-content: space-between
+    & .form-card__input
+        max-width: 30%
+        margin-right: 20px
+        &:last-child
+            margin-right: 0
+
+
+
+
+:root
+  --card-line-height:1.2em
+  --card-padding:1em
+  --card-radius:0.5em
+  --color-green:#0C9CB8
+  --color-gray:#e2ebf6
+  --color-dark-gray:#c4d1e1
+  --radio-border-width:2px
+  --radio-size:1.5em
+
+
+
+.grid
+  display: grid
+  grid-gap: var(--card-padding)
+  margin: 0 auto
+  max-width: 60em
+  padding: 0
+
+@media (min-width: 42em)
+  .grid
+    grid-template-columns: repeat(3, 1fr)
+
+.card
+  background-color: #fff
+  border-radius: var(--card-radius)
+  position: relative
+
+//   &:hover
+//     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+
+.radio
+  font-size: inherit
+  margin: 0
+  position: absolute
+  right: calc(var(--card-padding) + var(--radio-border-width))
+  top: calc(var(--card-padding) + var(--radio-border-width))
+
+@supports (-webkit-appearance: none) or (-moz-appearance: none)
+  .radio
+    -webkit-appearance: none
+    -moz-appearance: none
+    background: #fff
+    border: var(--radio-border-width) solid var(--color-gray)
+    border-radius: 50%
+    cursor: pointer
+    height: var(--radio-size)
+    outline: none
+    transition: background 0.2s ease-out, border-color 0.2s ease-out
+    width: var(--radio-size)
+    width: 17px
+    height: 17px
+
+    &::after
+      border: var(--radio-border-width) solid #fff
+      border-top: 0
+      border-left: 0
+      content: ''
+      display: block
+      height: 0.75rem
+      left: 25%
+      position: absolute
+      top: 50%
+      transform: rotate(45deg) translate(-50%, -50%)
+      width: 5px
+      height: 7px
+
+
+    &:checked
+      background: var(--color-green)
+      border-color: var(--color-green)
+
+  .card:hover .radio
+    border-color: var(--color-dark-gray)
+
+    &:checked
+      border-color: var(--color-green)
+
+.plan-details
+  border: var(--radio-border-width) solid var(--color-gray)
+  border-radius: var(--card-radius)
+  cursor: pointer
+  display: flex
+  flex-direction: column
+  padding: var(--card-padding)
+  transition: border-color 0.2s ease-out
+
+.card:hover .plan-details
+  border-color: var(--color-dark-gray)
+
+.radio
+  &:checked ~ .plan-details
+    border-color: var(--color-green)
+
+  &:focus ~ .plan-details
+    box-shadow: 0 0 0 2px var(--color-dark-gray)
+
+  &:disabled ~ .plan-details
+    color: var(--color-dark-gray)
+    cursor: default
+
+    .plan-type
+      color: var(--color-dark-gray)
+
+.card:hover .radio:disabled
+  ~ .plan-details
+    border-color: var(--color-gray)
+    box-shadow: none
+
+  border-color: var(--color-gray)
+
+.plan-type
+  color: var(--color-green)
+  margin-bottom: 20px
+//   font-size: 1.5rem
+//   font-weight: bold
+//   line-height: 1em
+
+.plan-cost
+  font-size: 16px
+  margin-bottom: 6px
+
+.slash
+  font-weight: normal
+
+.plan-cycle
+  font-size: 2rem
+  font-variant: none
+  border-bottom: none
+  cursor: inherit
+  text-decoration: none
+
+
+.plan-description 
+    color: #8C8E8E
+    font-size: 12px
+
+.hidden-visually
+  border: 0
+  clip: rect(0, 0, 0, 0)
+  height: 1px
+  margin: -1px
+  overflow: hidden
+  padding: 0
+  position: absolute
+  white-space: nowrap
+  width: 1px
+
+// cards of mail end
+
+.radio-text
+    font-size: 14px
+    color: #8C8E8E
+    margin-top: 6px
+
+
+
+.radio-container
+    margin-bottom: 30px
+
+
+
+.submit-order-btn
+    outline: none
+    border: none
+    width: 100%
+    max-width: 100%
+
+
+.order-products
+    padding-left: 30px
+
+.order-products .form-card__header
+    border-bottom: none
+
+
+.order-products__total
+    float: right
+    &-row 
+        display: flex
+        justify-content: space-between
+        margin-bottom: 24px
+        & .total-result-value
+            font-weight: bold
+            margin-left: 46px
+
+.order-products .busket-item__counter-n-price .price
+    margin-right: 60px
+
+
+.about-us
+    margin-bottom: 150px
+
+
+.contacts__title
+    margin-bottom: 70px
+
+
+.contacts__label
+    display: flex
+    color: rgba(15,15,15,0.4)
+    font-size: 18px
+    margin-bottom: 30px
+    & svg
+        margin-right: 15px
+
+
+.contacts__value
+    color: #1B1B1B
+    border-bottom: 1px solid #1B1B1B
+    font-weight: normal
+    font-size: 18px
+
+
+.contacts-row
+    justify-content: space-between
+
+
+.contact-col
+    padding-left: 15px
+    padding-right: 15px
+
+.contacts
+    margin-bottom: 150px
+
+
+#map
+    padding-left: 15px
+    padding-right: 15px
+    margin-top: 66px
+
+
+
+
+[class*="ymaps-2"][class*="-ground-pane"] 
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale")
+    -webkit-filter: grayscale(100%)
+
+
+.dropdown-content
+    display: none
+    position: absolute
+    background-color: #fff
+    min-width: 200px
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1)
+    // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+    z-index: 1
+    padding: 15px 5px
+
+.footer-list li:hover a
+    text-decoration: underline
+    text-underline-position: under
+
+
+.dropdown-menu__li:hover .dropdown-content 
+    display: block
+
+
+
+.footer-icon
+    transition: 0.2s
+
+
+.footer-icon:hover
+    transition: 0.2s
+    background-color: #10adcc
+
+
+
+.dropdown-content-list li
+    padding: 16px 30px
+    color: #1b1b1b
+    & a 
+        color: #1b1b1b
+
+
+// .hidden-menu 
+//     max-height: 0
+//     overflow: hidden
+//     transition: max-height 0.4s ease-out
+
+
+
+// .show-menu
+//     max-height: 300px
+//     transition: 0.4s
+    // transition: max-height 1s ease-out
+
+
+// customAccord
+
+.accordion
+  transition: 0.4s
+  display: none
+  
+
+.hidden-menu 
+  max-height: 0
+  overflow: hidden
+  transition: max-height 0.2s ease-out
+
+
+
+.hamburger
+    margin-right: 10px
+    background: #0C9CB8
+    height: 36px
+    width: 36px
+    border-radius: 100%
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+
+
+
+.hamburger-menu .line
+  background: #fff
+  border-radius: 2px
+  margin-bottom: 4px
+  width: 18px
+  height: 2px
+
+
+.hamburger-menu .line:last-child
+    margin-bottom: 0px
+
+
+.mobile-footer-row
+        display: none
+
+
+.close:focus
+    border: none
+    outline: none
+
+/*End USE CSS for Slider
+
+@media screen and (max-width: 991px)
+  
+  .banner-slider .slider
+    &.slider-for, &.slider-nav
+      max-width: 100%
+      float: none
+
+    &.slider-for
+      padding-right: 0
+
+    &.slider-nav
+      height: auto
+
+  .slider-banner-image
+    height: 500px
+
+  .slider.slider-nav.thumb-image
+    padding: 10px 30px 0
+
+  .slider-nav .slick-slide span
+    padding: 5px 0
+
+  .slick-arrow
+    padding: 0
+    width: 30px
+    height: 30px
+    top: 50%
+    bottom: 0
+    // -webkit-transform: translateY(-50%) rotate(-90deg)
+    // -moz-transform: translateY(-50%) rotate(-90deg)
+    // -ms-transform: translateY(-50%) rotate(-90deg)
+    // transform: translateY(-50%) rotate(-90deg)
+
+  .slick-prev
+    left: 0
+    right: unset
+
+  .slick-next
+    left: unset
+    right: 0
+    background-color: transparent
+
+  .vehicle-detail-banner .car-slider-desc
+    max-width: 340px
+
+  .bid-tag
+    padding: 10px 0 15px
+
+  .slider.slider-nav.thumb-image
+    white-space: nowrap
+
+  .thumbnail-image.slick-slide
+    padding: 0px 5px
+    min-width: 75px
+    display: inline-block
+    float: none
+
+@media screen and (max-width: 767px)
+  .slider-banner-image
+    height: 400px
+
+  .slider.slider-nav.thumb-image
+    padding: 0px 20px 0
+    margin: 10px 0px 0
+
+  .slider-nav .slick-slide.thumbnail-image .thumbImg
+    max-width: 70px
+    height: 70px
+
+  .slick-prev.slick-arrow
+    background-position: center 10px
+
+  .slick-next.slick-arrow
+    background-position: center 10px, center
+
+  .slider-nav .slick-slide span
+    font-size: 12px
+    white-space: normal
+
+ 
+
+
+
+
+@media screen and (max-width: 580px)
+  .slider-banner-image
+    height: 340px
+
+@media screen and (max-width: 480px)
+  .slider-banner-image
+    height: 280px
+
+
+
+// end of slider
+
+
+.nav-top
+  display: -webkit-box
+  display: none
+  -webkit-box-align: center
+  align-items: center
+  position: fixed
+  z-index: 101
+  padding: 10px 20px
+  padding-right: 0
+  width: 100%
+  padding-top: 0
+  padding-bottom: 0
+  background-color: #fff
+  justify-content: space-between
+
+  .hamburger
+    margin-left: auto
+    color: #fff
+    cursor: pointer
+
+.nav-drill
+  margin-top: 70px
+  -webkit-transform: translateX(100%)
+  transform: translateX(100%)
+
+.nav-drill-filter
+    @extend  .nav-drill
+
+.nav-drill-header
+    @extend  .nav-drill
+
+.nav-is-toggled
+  .nav-drill
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+
+.nav-is-toggled-filter
+  .nav-drill-filter
+    transform: translateX(0)
+
+.nav-is-toggled-header
+  .nav-drill-header
+    transform: translateX(0)
+
+
+  &::after
+    opacity: 1
+    visibility: visible
+
+.nav-drill
+  display: -webkit-box
+  display: flex
+  position: fixed
+  z-index: 100
+  top: 0
+  right: 0
+  width: 100%
+  background-color: #fff
+  overflow-y: scroll
+  overflow-x: hidden
+  -webkit-overflow-scrolling: touch
+  -webkit-transition: 0.45s
+  transition: 0.45s
+  min-height: 200vh
+
+.nav-items
+  -webkit-box-flex: 0
+  margin-top: 0px
+  flex: 0 0 100%
+  padding: 0
+  list-style: none
+  height: 100%
+  overflow-x: scroll
+  max-height: 100vh
+
+.nav-item:not(:last-child)
+  border-bottom: solid 1px  #0f8fa9
+
+.nav-link
+  display: block
+  padding: 0.875em 1em
+  background-color: #0C9CB8
+  color: #fff
+  font-size: 1rem
+  line-height: 1.5em
+  font-weight: 300
+
+.nav-expand-content
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  -webkit-transform: translateX(100%)
+  transform: translateX(100%)
+  background-color: #daf9f4
+  -webkit-transition: 0.3s
+  transition: 0.3s
+  visibility: hidden
+
+  .nav-item:not(:last-child)
+    border-bottom: solid 1px  #0f8fa9
+
+  .nav-link
+    background-color: #daf9f4
+
+  .nav-back-link
+    display: -webkit-box
+    display: flex
+    -webkit-box-align: center
+    align-items: center
+    color: #fff
+
+    &::before
+      content: ''
+      width: 6px
+      height: 10px
+      margin-right: 12px
+      background-image: url('../assets/img/chevron-left-white.svg')
+      background-size: cover
+
+.nav-expand-link
+  display: -webkit-box
+  display: flex
+  align-items: center
+  -webkit-box-pack: justify
+  justify-content: space-between
+
+  &::after
+      content: ''
+      width: 6px
+      height: 10px
+      background-image: url('../assets/img/chevron-right-white.svg')
+      // content: "chevron_right"
+      -webkit-box-flex: 0
+      flex: 0 1 auto
+      background-size: cover
+      // font-family: "Material Icons"
+
+.nav-expand
+  &.active > .nav-expand-content
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+    visibility: visible
+    z-index: 10
+
+  .nav-expand-content
+    background-color: #fff
+
+    .nav-link
+      background-color: #0C9CB8
+
+    .nav-expand-content
+      background-color: #fff
+
+      .nav-link
+        background-color: #0C9CB8
+
+      .nav-expand-content
+        background-color: #fff
+
+        .nav-link
+          background-color: #0C9CB8
+
+        .nav-expand-content
+          background-color: #0C9CB8
+
+          .nav-link
+            background-color: #0C9CB8
+
+
+.about-shop__mobile-img
+        display: none
+        margin-bottom: 30px
+        & img
+            max-width: 100%
+
+.modal-content
+    border-radius: 4px
+    border: none
+
+
+.modal-form__title
+    font-size: 20px
+
+
+.modal-body
+    padding: 40px
+    padding-top: 0px
+
+.modal-header
+    padding-bottom: 0px
+    padding-top:20px
+
+.modal-form__title
+    margin-bottom: 50px
+
+.modal-header
+    border-bottom: 0px
+
+.modal-body .main-input
+    display: block
+
+.modal-body .form-card__input-container
+    display: block
+
+.modal-body .form-card__input 
+    max-width: 100%
+
+.modal-body .form-card__label
+    width: 100%
+
+
+.nav-link:hover
+    color: #fff
+
+.modal-footer
+    border-top: 0px
+
+
+.features::-webkit-scrollbar 
+    display: none
+
+.dropdown-menu_inner-menu
+    position: absolute
+    background: #fff
+    z-index: 9
+    padding-bottom: 30px
+    padding-top: 30px
+    left: 96%
+    padding-left: 20px
+    top: 0
+    flex-wrap: wrap
+    min-width: 400px
+    min-height: 520px
+    max-width: autome
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06)
+    display: none
+
+
+.aside-menu__li
+    &:hover
+      color: #fff
+      background: #0C9CB8
+      border-radius: 4px
+      & > a
+          color: #fff
+      & svg g
+            opacity: 1
+      & svg rect
+            fill: #fff
+    & a:hover
+        color: #fff
+    &:hover .dropdown-menu_inner-menu
+        display: flex
+
+
+    
+
+
+.drop-menu-col
+    margin-right: 20px
+    & li a:hover
+        color: #000
+
+.features 
+    -ms-overflow-style: none
+    scrollbar-width: none
+
+.allfilter-mobile
+    display: none
+
+
+.inner-content__nav
+    padding-left: 15px
+    padding-right: 15px
+
+
+.slider-mob-header
+        display: none
+
+
+.select-container
+    display: flex
+    margin-bottom: 30px
+    justify-content: space-between
+    & .main-input
+        max-width: 48%
+        flex: 0 0 48%
+        background-image: url(../assets/img/chevron-down.png)
+        background-position: 95%
+        background-size: 8%
+        background-repeat: no-repeat
+
+
+
+select 
+    -webkit-appearance: none
+    -moz-appearance: none
+    text-indent: 1px
+    text-overflow: ''
+
+.mobile-order
+    display: none
+
+
+.accrodion-in-poruduct
+    display: none
+
+
+.submit-btn
+    width: 100%
+    display: block
+    text-align: center
+    border: none
+    outline: none
+    background: #0C9CB8
+    color: #fff
+    margin-top: 40px
+    &:active
+        border: none
+        outline: none
+        background: #0C9CB8
+    &:hover
+        border: none
+        outline: none
+        background: #0C9CB8
+
+
+.thumbnail-image 
+    &:focus
+        outline: none
+        border: none
+
+
+        
+        
+        
+
+
+
+
+@media (min-width: 1280px)
+    .container
+        max-width: 1200px
+
+
+
+@media (min-width: 1440px)
+    .container
+        max-width: 1300px
+
+
+@media (min-width: 1600px)
+    .container
+        max-width: 1400px
+
+
+
+@media (min-width: 1900px)
+  .container
+     max-width: 1710px
+
+
+@media (max-width: 1900px)
+  .hide-on-laptop
+    display: none
+
+  .dropdown-menu__list
+    justify-content: flex-start
+
+  .accordion
+    display: block
+
+  .dropdown-menu__list .dropdown-menu__li
+    margin-right: 25px
+
+
+
+  
+
+@media (max-width: 1700px)
+
+
+  .dropdown-menu_inner-menu
+      left: 94%
+
+
+  .dropdown-menu__list .dropdown-menu__li
+      margin-bottom: 20px
+
+
+  .product__title-n-price
+      max-width: 50%
+
+  .banner-slider .slider.slider-for
+      max-width: 85%
+
+
+  .product-card-item
+      max-height: 610px
+
+  .order-products  .busket-item__counter-n-price .price
+      margin-right: unset
+
+
+@media (max-width: 1440px)
+    .product-img__container
+        height: 250px
+
+    .hide-on-laptop
+        display: none
+
+
+@media ( max-width:1024px  )
+    .vehicle-detail-banner
+        margin-right: 0
+        max-width: 100%
+        flex: 1
+
+
+    .product-tabs-container
+        max-width: 100%
+        flex: 1
+        & .tab-content
+            max-width: 100%
+
+    .product-card-container
+        max-width: 100%
+        flex: 1
+
+    .product-card__subtitle
+        margin-bottom: 30px
+
+    .buy-click
+        display: block
+        text-align: center
+        padding: 0
+        width: 50%
+
+    .banner-slider .slider.slider-for
+        max-width: 89%
+
+    .product-card-item
+        box-shadow: none
+
+    .product-card-item
+        padding: 20px 0px
+
+    .ordering-content
+        flex-direction: column-reverse  
+
+    .order-products
+        padding-left: 0
+        margin-bottom: 40px
+
+    .mobile-order
+        display: block
+
+    .desctop-order
+        display: none
+
+    .padding-null
+        padding: 0px
+
+    .order-forms
+        max-width: 100%
+        flex: 1
+
+    .mobile-order
+        margin-bottom: 30px
+        margin-left: 15px
+        margin-right: 15px
+        & .card-header .collapsed
+            background: #fff
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06)
+
+
+
+
+@media ( max-width:768px  )
+
+    .accrodion-in-poruduct
+        display: block
+
+    .contacts-contact
+        margin-top: 20px
+
+    .cart-btn
+        margin-right: 0
+
+    .product-tabs .tab-content
+        max-width: 100%
+
+    .breadcrumbs
+      padding-top: 101px
+      margin-bottom: 50px
+
+    .breadcrumbs-ul
+        flex-wrap: wrap
+
+    .main h2
+        font-size: 20px
+
+    .product-card-item__price
+        font-size: 25px
+
+    .main p
+        font-size: 14px
+
+    .order-products__total
+        float: unset
+        padding-left: 15px
+        padding-right: 15px
+
+
+
+    .banner-slider .slider.slider-for
+      max-width: 100%
+      margin-left: 0
+
+    .slider.slider-nav.thumb-image
+        padding-left: 0px
+        padding-right: 0px
+
+    // .product-card-item__price
+    //     display: none
+
+    .hidden-price
+        display: none
+
+
+    .product-card-item
+        padding: 30px 0px
+
+    .product-card-item__price
+        padding-left: 10px
+
+    .product-card-item
+        box-shadow: none
+
+    .products-inner__main-title
+        margin-bottom: 70px
+
+
+    .recommends-section
+        margin-bottom: 70px
+
+
+    .nav-drill-filter .filter-btn
+        max-width: 100%
+        margin: 0 auto
+        margin-top: 30px
+
+    .recommend-card
+        margin-bottom: 40px
+
+    .cross-filter
+        display: flex
+        padding-right: 15px
+        justify-content: flex-end
+        margin-bottom: 30px
+        margin-top: 15px
+
+    .nav-expand-content .cross-filter
+        position: absolute
+        right: 0
+        top: -2px
+        & svg
+            width: 10px
+        & svg rect
+            fill: #fff
+
+    .nav-expand-content .nav__title
+        margin-top: 25px
+   
+
+
+    .nav__title
+       display: flex
+       justify-content: center
+       color: #242424
+       font-family: 'Gilroy Medium'
+       margin-bottom: 22px
+
+    .about-shop, .recomendet
+        margin-bottom: 60px
+
+
+    .inner-content__nav a
+        display: block
+        margin-bottom: 20px
+        color: #242424
+        font-family: "Gilroy Medium"
+
+
+    .category-card
+        margin-bottom: 20px
+        padding: 0
+        margin-right: 10px
+        &:last-child
+            margin-right: 0
+
+    .category-row
+        padding-left: 15px
+        padding-right: 15px
+
+    .main-header__dropdown-menu
+        display: none
+
+    .hamburger-menu
+        display: flex
+        align-items: center
+
+    .search
+        display: none
+
+
+    .main-header
+        position: fixed
+        width: 100%
+        z-index: 99
+        background-color: #fff
+
+
+    .slider-n-category
+        padding-top: 80px
+
+    .search__input
+        max-width: 100%
+
+    .main-header__phone
+        display: none
+
+    .main-header__cabinet
+        display: none
+
+    .cabinet-mobile
+      display: flex
+      padding: 15px
+      margin-top: 20px
+      & .link
+        font-size: 16px
+    
+
+    .phone-mobile
+        display: flex
+        padding: 15px
+
+    .basket-btn-text
+        display: none
+        margin-right: 0
+
+    .main-btn svg
+        margin-right: 0
+
+    .basket-btn
+        padding: 0
+        display: flex
+        justify-content: center
+        width: 36px
+        height: 36px
+
+    .main-header__top-menu
+        margin-bottom: 0px
+
+    .main-slider 
+        height: 400px
+        & .slick-list
+            height: 100%
+        & .slick-track
+            height: 100%
+        & .main-slider__slide
+            height: 100%
+
+    .main-slider__slide .slide-img 
+        max-width: 100%
+        height: 100%
+        object-fit: cover
+
+    .main-slider .slide__title
+        font-size: 24px
+        margin-bottom: 30px
+        padding-right: 15px
+        padding-left: 15px
+
+    .main-slider .slick-next
+        right: 10px
+
+    .main-slider .slick-prev
+        left: 10px
+
+    .main-slider__slide .slide__content .main-btn
+        font-size: 14px
+        padding-left: 25px
+        padding-right: 25px
+
+    .category-card__title
+        position: static
+        color: #000
+        font-size: 14px
+
+    .category-col
+        padding: 0
+        min-width: 50%
+
+    .features
+        flex-wrap: nowrap
+        overflow-x: scroll
+
+    .features__item
+        min-width: 300px
+        justify-content: space-evenly
+
+
+    .about-shop__img
+        display: none
+
+    .about-shop__content
+        max-width: 100%
+        flex: 1
+
+    .favorite__title
+        font-size: 20px
+
+
+    .footer__logo
+        margin-bottom: 30px
+
+
+    .slider-logo__title
+        font-size: 20px
+
+    .footer__logo
+        padding-left: 16px
+        padding-right: 16px
+
+
+    .footer
+        padding-top: 30px
+        padding-bottom: 30px
+
+    .footer .card-header
+        background: #0C9CB8
+        margin-bottom: 0px
+
+    .footer .card-header .collapsed
+        background: #0c9cb8
+        color: #fff
+
+    .about-shop__title
+        font-size: 20px
+
+    .about-shop__text
+        font-size: 16px
+
+    .logo-slider .slick-prev
+        left: 0px
+
+    .logo-slider .slick-next
+        right: 0px
+
+    .slider-logo
+        margin-bottom: 100px
+
+    .form-subscribe
+        display: block
+
+    .form-subscribe__mail
+        max-width: 100%
+
+    .about-shop__mobile-img
+        display: block
+        
+
+    .form-subscribe__form
+        padding-left: 15px
+        padding-right: 15px
+        text-align: center
+
+    .form-subscribe__submit
+        transform: translate(0px)
+        margin-left: 0px
+        margin-top: 20px
+        margin-bottom: 40px
+        width: 100%
+        max-width: 500px
+
+
+    .col-aside
+        display: none
+
+    .allfilter-mobile
+        display: flex
+        justify-content: space-between
+        width: 100%
+        font-family: 'Gilroy Medium'
+        align-items: center
+
+
+
+    .price-sort
+        display: none
+
+    .content-sort__totalProducts
+        display: none
+
+
+    .main-footer-row
+        display: none
+
+    .recomendet
+        margin-top: 100px
+        margin-bottom: 100px
+
+
+    .middleLine
+        opacity: 0
+        transition: 0.2s
+
+    .about-shop__title
+        margin-bottom: 30px
+
+    .topLine
+        transition: 0.2s
+        transform: translateY(6px) rotate(45deg)
+
+    .bottomLine 
+        transition: 0.2s
+        transform: translateY(-6px)  rotate(-45deg)
+
+
+    .line
+        transition: 0.2s
+    
+
+    .mobile-footer-row
+        display: block
+
+    .form-subscribe__text
+        margin-right: 0px
+        
+
+    .category-card__title
+        padding-left: 5px
+        padding-right: 5px
+        text-align: center
+        margin-top: 10px
+        margin-bottom: 10px
+
+    .category-card
+        margin: 5px
+
+    .category-row
+        overflow-x: scroll
+
+    .recomendet__title
+        font-size: 20px
+
+    .category-row
+        padding-left: 10px
+        padding-right: 10px
+
+    .footer-mobile-left-col
+        margin-top: 30px
+        padding-left: 30px
+
+    .up-col-mobile
+        padding-left: 0
+        display: flex
+        justify-content: flex-end
+        padding-top: 20px
+        & .up
+            font-size: 12px
+
+    .footer .card-body
+        background: #0C9CB8
+        color: #fff
+
+    .footer .btn-link
+        padding-left: 15px
+
+    .footer
+        overflow: hidden
+
+    .footer .card-body
+        padding-left: 15px
+        padding-top: 0px
+
+    .footer-list li a
+        font-size: 14px
+
+    .nav-drill-filter
+        margin-top: 0px
+
+    .slider-mob-header
+        display: block
+
+    .slider-mob-header .product-card__title, .slider-mob-header .product-card__subtitle
+        display: block
+
+    .product-card__title, .product-card__subtitle
+        display: none
+
+    .product-card__subtitle
+        margin-bottom: 30px
+
+    .vehicle-detail-banner .slick-next
+        transform: rotate(0deg)
+
+    .product-tabs-container
+        display: none
+
+    .product-card-container  .cart-btn
+        margin-right: 20px
+
+
+    .basket-total-row
+        flex-direction: column-reverse
+
+    .basket-tabs
+        margin-top: 70px
+
+    .basket-tabs__header, .tab-content, .coupon-form
+        max-width: 100%
+
+    .contacts
+        margin-bottom: 70px
+
+ 
+
+
+@media ( max-width:480px  )
+
+    .form-card__header
+        display: block
+
+    .contacts
+        margin-bottom: 40px
+
+    .contacts-row
+        display: block
+        & .contact-col
+            margin-bottom: 30px
+            & .contacts__label
+                margin-bottom: 15px
+
+    .contacts__title
+        margin-bottom: 30px
+
+    #map
+        height: 300px !important
+        padding-left: 0
+        padding-right: 0
+
+    .mobile-order .card-body
+        padding:0
+        padding-top: 20px
+        padding-left: 15px
+        padding-right: 15px
+
+    .address-container
+        align-items: flex-start
+        & .adress-container
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+            align-items: flex-end
+            & .form-card__input
+                max-width: 84%
+                margin-bottom: 20px
+                margin-right: 0
+
+    .arrow-accord
+        margin-left: 15px
+
+    .form-card
+        padding: 30px
+
+    .form-card__input
+        max-width: 64%
+
+    .breadcrumbCustom
+        margin-bottom: 5px
+
+    .cart-btn
+        font-size: 13px
+        max-width: 100%
+
+    .basket-tabs
+        // display: none
+
+    .category-card__title
+        font-size: 12px
+
+    .busket__item
+        display: block
+
+    .busket-item__counter-n-price
+        flex-direction: row-reverse
+        justify-content: space-between
+        padding-left: 20px
+        padding-right: 20px
+        padding-top: 15px
+        & .counter
+            margin-right: 0
+
+
+    .basket-count
+        justify-content: flex-start
+
+
+    .basket__clear
+        display: none
+
+    .basket-title-row
+        display: block
+
+    .busket-item__counter-n-price .price
+        font-size: 22px
+        margin-right: 0
+
+    .basket-tabs__header li
+        padding-left: 15px
+        padding-right: 15px
+        font-size: 14px
+
+    .busket-item__counter-n-price .cross
+        position: absolute
+        top: -20px
+        right: 20px
+
+    .main .total-price p
+        font-size: 18px
+
+
+
+    .product-card-item
+        box-shadow: none
+        padding: 0
+        margin-top: 30px
+
+    .product-tabs__btns
+        display: none
+
+    .product-card-item__price
+        padding-left: 10px
+
+
+    .pagination
+        display: none
+
+    .showmore-n-pagination .showmore-btn
+        width: 100%
+
+
+
+@media ( max-width:320px  )
+    .form-card
+        padding: 30px 15px
+
+    .cabinet-mobile
+        margin-top: 0px
+
+    .product-card-container .cart-btn
+        margin-right: 10px
+
+
+@font-face
+  font-family: "Gilroy regular"
+  src: url('../assets/fonts/Gilroy-Regular.eot') format("eot"), url('../assets/fonts/Gilroy-Regular.woff') format("woff"), url("../assets/fonts/Gilroy-Regular.ttf") format("ttf")
+
+@font-face
+  font-family: "Gilroy Medium"
+  src: url('../assets/fonts/Gilroy-Medium.eot') format("eot"), url('../assets/fonts/Gilroy-Medium.woff') format("woff"), url("../assets/fonts/Gilroy-Medium.ttf") format("ttf")
+
